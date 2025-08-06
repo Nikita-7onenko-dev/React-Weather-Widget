@@ -10,7 +10,7 @@ export default function App() {
 
     const [data, setData] = useState(null);
     useInitFetch(setData);
-
+    console.log(data)
     let weeklyForecastCards;
     let hourlyForecastCards;
 

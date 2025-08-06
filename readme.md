@@ -15,7 +15,7 @@
 ![Скриншот 1](./screenshots/main-screen.png)
 
 ### Панель управління містами
-![Скриншот 2](./screenshots/cities-list.png)
+![Скриншот 2](./screenshots/management-pane.png)
 
 ---
 
