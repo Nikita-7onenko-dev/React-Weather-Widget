@@ -17072,7 +17072,7 @@ async function fetchLocationByIP() {
 }
 async function fetchCoords(cityName) {
   try {
-    const response = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${cityName}&language=ru`);
+    const response = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${cityName.trim()}&language=ru`);
     if (!response.ok) throw new Error(`Ошибка при запросе координат — ${response.status}`);
     let coords = await response.json();
     if (!coords?.results) {
