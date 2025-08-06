@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Live Demo
-[Відкрити демо на GitHub Pages](...)
+[Відкрити демо на GitHub Pages](https://nikita-7onenko-dev.github.io/React-Weather-Widget/)
 
 ---
 
