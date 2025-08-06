@@ -1,0 +1,43 @@
+
+.WeeklyForecastCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    min-width: calc(480 / 3) - 4px;
+    min-height: 190px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #726e8d32;
+    backdrop-filter: blur(2px);   
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    line-height: 17px;
+    font-weight: 500;
+
+    p{
+        font-size: 14px;
+    }
+
+    span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .WeeklyForecastCard{
+        min-width: calc(93vw / 3);
+        padding: 10px 5px;
+        align-items: center;
+
+        p{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .WeeklyForecastCard{
+        min-width: calc(91.3vw / 3);
+    }
+}

@@ -1,0 +1,20 @@
+
+.ForecastCardsContainer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: auto;
+    gap: 5px;
+    height: 80%;
+}
+
+.loading{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: rgba(114, 110, 141, 0.1960784314);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}

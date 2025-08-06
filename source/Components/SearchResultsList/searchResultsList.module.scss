@@ -1,0 +1,28 @@
+
+.searchResultsList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+    p{
+      text-align: center;
+    }
+}
+
+
+.searchResultsElement{
+   cursor: pointer; 
+   font-size: 20px;
+   -webkit-tap-highlight-color: transparent;
+/*    background-color: #726e8d2c; */
+   backdrop-filter: blur(2px);
+   border-radius: 15px;
+   padding: 10px;
+   
+}
+
+.searchResultsElement:active{
+   transform: scale(0.97);
+}
+

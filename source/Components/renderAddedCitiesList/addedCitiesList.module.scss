@@ -1,0 +1,49 @@
+
+.listElement{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 15px;
+  align-items: center;  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2a254b7d;
+    
+  div{
+    max-width: 50%;
+    cursor: pointer;
+
+    h2{
+      font-size: 23px;
+      padding-bottom: 5px;
+      width: fit-content;
+    }
+
+    span{
+      font-size: 18px;
+      padding-left: 2px;
+    }
+  }
+
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    color:  #fff;
+    background: #ff6a6a;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+
+  button:active{
+    transform: scale(0.95);
+  }
+
+}

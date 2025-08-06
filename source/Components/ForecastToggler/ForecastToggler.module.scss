@@ -1,0 +1,16 @@
+
+.toggler {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    button{
+        width: 50%;
+    }
+
+    .activatedForecastButton {
+        background-color: #726e8d74;
+        font-weight: 500;
+        border: 1px solid #fff;
+    }
+}

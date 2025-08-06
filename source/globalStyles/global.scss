@@ -1,0 +1,32 @@
+
+// Normalize
+@import url('./normalize.scss');
+
+// Иконки WeatherIcons
+@import url('/public/weatherIcons/weather-icons.css');
+@import url('/public/weatherIcons/weather-icons-wind.css');
+
+// Базовый стиль для иконок
+.wi {
+  font-family: 'WeatherIcons';
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 28px;
+  width: fit-content;
+}
+
+// Шрифты 
+@import url('/public/fonts/fontsRoboto.scss');
+
+
+body {
+    background: #726E8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+}

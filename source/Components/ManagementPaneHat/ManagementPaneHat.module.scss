@@ -1,0 +1,22 @@
+
+
+.ManagementPaneHat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(20px,5vw ,25px);
+    position: relative;
+    width: 100%;
+    
+    button{
+        position: absolute;
+        left: 0;
+        padding: 0;
+        background: none;
+        backdrop-filter: none;
+
+        i{
+          font-size: clamp(45px, 13vw, 55px);
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.CityBlock {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    -webkit-tap-highlight-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    background: #726e8d32;
+    backdrop-filter: blur(2px);
+    font-size: 20px;
+
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: right;
+    }
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #726e8d32;
+    backdrop-filter: blur(2px);
+    height: 250px;
+    width: 48%;
+}
+
+@media screen and (max-width: 500px) {
+    .CityBlock{
+            font-size: 17px;
+        h2{
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+}
+

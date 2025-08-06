@@ -1,0 +1,25 @@
+
+.managementPane{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2a254b70;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 350px) {
+    .managementPane{
+        padding-inline: 20px;
+    }
+}
+

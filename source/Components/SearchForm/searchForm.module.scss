@@ -1,0 +1,44 @@
+
+.searchForm{
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 5px;
+
+  svg{
+    position: absolute;
+    left: 10px;
+  }
+
+  input{
+    background-color: #2a254b7d;
+    height: 40px;
+    color: #FFF;
+    font-weight: 500;
+    padding: 5px 10px 5px 40px;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+
+  button{
+    width: 75px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .searchForm{
+
+    input{
+      width: 230px;
+      padding: 5px 5px 5px 30px;
+      font-size: 15px;
+    }
+
+    svg{
+      position: absolute;
+      left: 5px;
+    }
+  }
+
+}

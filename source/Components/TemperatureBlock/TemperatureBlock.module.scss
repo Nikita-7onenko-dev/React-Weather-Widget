@@ -1,0 +1,40 @@
+.TemperatureBlock {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    gap: 14px;  
+    padding: 15px;
+    border-radius: 10px;
+    background: #726e8d32;
+    backdrop-filter: blur(2px);
+    font-size: 18px;
+
+    strong{
+        font-size: 45px;
+    }
+
+    p{
+        line-height: 20px;
+    }
+}
+
+.loading{
+    background: #726e8d32;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .TemperatureBlock{
+            font-size: 17px;
+        strong{
+            font-size: 35px;
+        }   
+    }
+
+}

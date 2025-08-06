@@ -1,0 +1,14 @@
+.Button {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background: #726e8d32;
+    backdrop-filter: blur(2px);
+    color: #FFF;
+
+}
+
+.Button:active{
+    transform: scale(0.96);
+}
