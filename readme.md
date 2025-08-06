@@ -12,11 +12,11 @@
 ## 📸 Скріншоти
 
 ### Віджет у дії
-<img src="./screenshots/main-screen.png" alt="Main screen" width="300">
+<img src="./screenshots/main-screen.png" alt="Main screen" width="400">
 
 
 ### Панель управління містами
-<img src="./screenshots/management-pane.png" alt="Management pane" width="300">
+<img src="./screenshots/management-pane.png" alt="Management pane" width="400">
 
 ---
 
