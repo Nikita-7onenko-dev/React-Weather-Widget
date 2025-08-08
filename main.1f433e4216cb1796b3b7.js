@@ -17910,6 +17910,7 @@ function HourlyForecastCards(data) {
 function App() {
   const [data, setData] = (0,react.useState)(null);
   useInitFetch(setData);
+  console.log(data);
   let weeklyForecastCards;
   let hourlyForecastCards;
   if (data) {
